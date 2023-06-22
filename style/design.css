@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("/Hunger/assets/pexels-maxyne-barcel2.png");
+  background-size: cover;
+  background-color: #8a8484;
+  background-blend-mode: multiply;
+
+  /* filter: brightness(30%); */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('/Hunger/assets/pexels-maxyne-barcel2.png') no-repeat; */
+  /* background: url('/Hunger/assets/pexels-maxyne-barcel2.png') cover; */
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  color: #efc231;
+  font-weight: 600;
+}
+
+/* Logo */
+.img-logo {
+  margin-left: 40px;
+}
+
+.header-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  gap: 80px;
+}
+
+/* Common Button */
+button {
+  background-color: #ef4545;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Navigation Button */
+.nav-button {
+  margin-right: 40px;
+  height: 32px;
+  width: 100px;
+  font-size: 13px;
+}
+
+/* Hero Section */
+main {
+  height: 500px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.header-para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Hero Section Paragraph */
+.header-para p {
+  font-size: 80px;
+  text-align: center;
+  color: #efc231;
+  font-weight: 900;
+}
+
+/* Hero Section Paragraph */
+.menu-btn {
+  text-align: center;
+  height: 40px;
+  width: 220px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  float: inline-end;
+  margin-right: 10px;
+}
+
+/* Hover */
+nav ul li:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: transparent;
+    color: #ef4545;
+    border: 2px solid #ef4545;
+}
